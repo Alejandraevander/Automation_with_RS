@@ -31,3 +31,19 @@ driver.find_element(By.ID,"exampleInputPassword1").send_keys("123456")
 time.sleep(5)
 driver.find_element(By.ID,"exampleCheck1").click()
 time.sleep(5)
+
+#css-selector
+driver.find_element(By.CSS_SELECTOR,"input[name='name']").send_keys("Alejandra")
+driver.find_element(By.CSS_SELECTOR,"input[value='option1']").click()
+#XPATH //tagname[@attribute="value"] ->//input[@type='submit'] #id, .classname
+# time.sleep(5)
+# driver.find_element(By.XPATH,"//input[@type='text'][3]").click()
+# driver.find_element(By.XPATH,"//input[@type='text'][3]").send_keys("Hello")
+# time.sleep(5)
+# driver.find_element(By.XPATH,"//input[@type='text'][3]").clear()
+# time.sleep(5)
+
+driver.find_element(By.XPATH,"//input[@type='submit']").click()
+message = driver.find_element(By.CLASS_NAME, "alert-success").text
+print(message)
+assert "Success" in message
