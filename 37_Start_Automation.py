@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.edge.service import Service
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.select import Select
 import time
 
 #Method 1 (Auto Download Driver) - Edge Driver - Edge Browser
@@ -30,6 +31,13 @@ time.sleep(5)
 driver.find_element(By.ID,"exampleInputPassword1").send_keys("123456")
 time.sleep(5)
 driver.find_element(By.ID,"exampleCheck1").click()
+time.sleep(5)
+
+#Static Dropdown
+dropdown = Select(driver.find_element(By.ID, "exampleFormControlSelect1"))
+dropdown.select_by_index(1)
+time.sleep(5)
+dropdown.select_by_visible_text("Male")
 time.sleep(5)
 
 #css-selector
