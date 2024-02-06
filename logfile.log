@@ -1,0 +1,20 @@
+2024-02-06 09:04:35,994 : INFO : test_logging : Information statement
+2024-02-06 09:04:35,994 : WARNING : test_logging : Something is in warning mode
+2024-02-06 09:04:35,994 : ERROR : test_logging : A Major error has happened
+2024-02-06 09:04:35,994 : CRITICAL : test_logging : Critical issue
+2024-02-06 09:04:52,274 : INFO : test_logging : Information statement
+2024-02-06 09:04:52,275 : WARNING : test_logging : Something is in warning mode
+2024-02-06 09:04:52,275 : ERROR : test_logging : A Major error has happened
+2024-02-06 09:04:52,276 : CRITICAL : test_logging : Critical issue
+2024-02-06 09:07:36,148 : INFO : test_logging : Information statement
+2024-02-06 09:07:36,148 : WARNING : test_logging : Something is in warning mode
+2024-02-06 09:07:36,148 : ERROR : test_logging : A Major error has happened
+2024-02-06 09:07:36,148 : CRITICAL : test_logging : Critical issue
+2024-02-06 09:07:53,081 : INFO : test_logging : Information statement
+2024-02-06 09:07:53,081 : WARNING : test_logging : Something is in warning mode
+2024-02-06 09:07:53,081 : ERROR : test_logging : A Major error has happened
+2024-02-06 09:07:53,081 : CRITICAL : test_logging : Critical issue
+2024-02-06 09:08:03,718 : INFO : test_logging : Information statement
+2024-02-06 09:08:03,718 : WARNING : test_logging : Something is in warning mode
+2024-02-06 09:08:03,718 : ERROR : test_logging : A Major error has happened
+2024-02-06 09:08:03,718 : CRITICAL : test_logging : Critical issue
