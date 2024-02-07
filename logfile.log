@@ -18,3 +18,18 @@
 2024-02-06 09:08:03,718 : WARNING : test_logging : Something is in warning mode
 2024-02-06 09:08:03,718 : ERROR : test_logging : A Major error has happened
 2024-02-06 09:08:03,718 : CRITICAL : test_logging : Critical issue
+2024-02-06 17:17:34,915 : INFO : BaseClass : Alejandra
+2024-02-06 17:18:45,986 : INFO : BaseClass : Alejandra
+2024-02-06 17:18:45,986 : INFO : BaseClass : alejandra.evander@gmail.com
+2024-02-07 08:31:51,768 : INFO : BaseClass : Alejandra
+2024-02-07 08:31:51,769 : INFO : BaseClass : alejandra.evander@gmail.com
+2024-02-07 08:32:00,718 : INFO : BaseClass : Alejandra
+2024-02-07 08:32:00,718 : INFO : BaseClass : alejandra.evander@gmail.com
+2024-02-07 08:43:21,616 : INFO : test_editProfile : Alejandra
+2024-02-07 08:43:21,616 : INFO : test_editProfile : alejandra.evander@gmail.com
+2024-02-07 08:44:55,354 : INFO : test_editProfile : Alejandra
+2024-02-07 08:44:55,355 : INFO : test_editProfile : alejandra.evander@gmail.com
+2024-02-07 08:44:55,360 : INFO : test_logging : Information statement
+2024-02-07 08:44:55,360 : WARNING : test_logging : Something is in warning mode
+2024-02-07 08:44:55,360 : ERROR : test_logging : A Major error has happened
+2024-02-07 08:44:55,360 : CRITICAL : test_logging : Critical issue
