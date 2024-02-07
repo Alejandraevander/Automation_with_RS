@@ -33,3 +33,13 @@
 2024-02-07 08:44:55,360 : WARNING : test_logging : Something is in warning mode
 2024-02-07 08:44:55,360 : ERROR : test_logging : A Major error has happened
 2024-02-07 08:44:55,360 : CRITICAL : test_logging : Critical issue
+2024-02-07 08:47:02,310 : INFO : test_editProfile : Alejandra
+2024-02-07 08:47:02,311 : INFO : test_editProfile : alejandra.evander@gmail.com
+2024-02-07 08:59:50,893 : INFO : test_editProfile : Alejandra
+2024-02-07 08:59:50,894 : INFO : test_editProfile : alejandra.evander@gmail.com
+2024-02-07 09:01:16,641 : INFO : test_editProfile : Alejandra
+2024-02-07 09:01:16,641 : INFO : test_editProfile : alejandra.evander@gmail.com
+2024-02-07 09:01:16,655 : INFO : test_logging : Information statement
+2024-02-07 09:01:16,655 : WARNING : test_logging : Something is in warning mode
+2024-02-07 09:01:16,656 : ERROR : test_logging : A Major error has happened
+2024-02-07 09:01:16,656 : CRITICAL : test_logging : Critical issue
