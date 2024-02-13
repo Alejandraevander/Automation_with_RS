@@ -9,7 +9,7 @@ import time
 
 #Compulsory Code
 options_obj = webdriver.EdgeOptions()
-service_obj = Service(r"C:\Users\User\Desktop\Coding_With_RS\edgedriver_win64\msedgedriver.exe")
+service_obj = Service(r"H:\Python_Project\Section_9_RS_Testing_Framework\edgedriver_win64\msedgedriver.exe")
 
 #Code to disable devtools listening on ....
 options_obj.add_experimental_option('excludeSwitches', ['enable-logging'])
@@ -20,7 +20,7 @@ options_obj.add_experimental_option('excludeSwitches', ['enable-logging'])
 options_obj.add_argument("--guest")
 options_obj.add_argument("windows-size=1920x1080")
 
-BrowserSortedList =[]
+#BrowserSortedList =[]
 #Initialize Web Driver
 driver = webdriver.Edge(service=service_obj, options=options_obj)
 driver.implicitly_wait(5)
@@ -37,7 +37,9 @@ for Phone in Phonelist:
     time.sleep(3)
     if P_phone == "Blackberry":
         Phone.find_element(By.XPATH,"div/button").click()
-        
+        time.sleep(10)
+
+driver.find_element(By.XPATH,"//span[@class='navbar-toggler-icon']").click()
 driver.find_element(By.CSS_SELECTOR,"a[class*='btn-primary']").click()
 driver.find_element(By.XPATH,"//button[@class = 'btn btn-success']").click()
 driver.find_element(By.ID, "country").send_keys("Ind")
