@@ -13,8 +13,10 @@ from PageObjects.CheckoutPage import CheckoutPage
 from PageObjects.ConfirmPage import ConfirmPage
 class TestOne(BaseClass):
     def test_e2e(self):
+        log = self.getLogger()
         homePage = HomePage(self.driver)
         checkoutpage = homePage.shopItems()
+        log.info("getting all the card titles")
         cards = checkoutpage.getCardTitles()
         confirmpage = ConfirmPage(self.driver)
         
@@ -23,17 +25,19 @@ class TestOne(BaseClass):
             i = i +1
             cardText = card.text
             #print(cardText)
+            log.info("cardText")
             if cardText =="Blackberry":
                 checkoutpage.getCardFooter()[i].click()
                 
         checkoutpage.getNavigationLink().click()
         checkoutpage.getCheckout().click()
+        log.info("Entering Country details")
         confirmpage.getCountry().send_keys("Ind")
         self.verifyLinkPresence("India")
         confirmpage.getChooseCountry().click()
         confirmpage.getCheckBox().click()
         confirmpage.getSubmitButton().click()
         successtext = confirmpage.getSuccessText().text
-
-        assert "Success!" in successtext
+        log.info("Text Received " + successtext)
+        assert "Success!21" in successtext
         time.sleep(5)   

@@ -1,0 +1,115 @@
+2024-02-14 11:04:22,860 : INFO : test_e2e : getting all the card titles
+2024-02-14 11:04:22,886 : INFO : test_e2e : cardText
+2024-02-14 11:04:22,893 : INFO : test_e2e : cardText
+2024-02-14 11:04:22,900 : INFO : test_e2e : cardText
+2024-02-14 11:04:22,907 : INFO : test_e2e : cardText
+2024-02-14 11:04:23,082 : INFO : test_e2e : Entering Country details
+2024-02-14 11:04:28,441 : INFO : test_e2e : Text Received ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-02-14 11:09:56,352 : INFO : test_formSubmission : Email Enteredalejandra.evander92@gmail.com
+2024-02-14 11:09:56,418 : INFO : test_formSubmission : Password Entered12345678i
+2024-02-14 11:09:56,538 : INFO : test_formSubmission : Name EnteredAlejandra
+2024-02-14 11:09:56,800 : INFO : test_formSubmission : Message : ×
+Success! The Form has been submitted successfully!.
+2024-02-14 11:09:57,059 : INFO : test_formSubmission : Email Enteredbakamoto@gmail.com
+2024-02-14 11:09:57,059 : INFO : test_formSubmission : Email Enteredbakamoto@gmail.com
+2024-02-14 11:09:57,114 : INFO : test_formSubmission : Password Entered12345678o
+2024-02-14 11:09:57,114 : INFO : test_formSubmission : Password Entered12345678o
+2024-02-14 11:09:57,207 : INFO : test_formSubmission : Name EnteredBaka
+2024-02-14 11:09:57,207 : INFO : test_formSubmission : Name EnteredBaka
+2024-02-14 11:09:57,393 : INFO : test_formSubmission : Message : ×
+Success! The Form has been submitted successfully!.
+2024-02-14 11:09:57,393 : INFO : test_formSubmission : Message : ×
+Success! The Form has been submitted successfully!.
+2024-02-14 11:11:34,933 : INFO : test_formSubmission : Email Enteredalejandra.evander92@gmail.com
+2024-02-14 11:11:35,000 : INFO : test_formSubmission : Password Entered12345678i
+2024-02-14 11:11:35,126 : INFO : test_formSubmission : Name EnteredAlejandra
+2024-02-14 11:11:35,391 : INFO : test_formSubmission : Message : ×
+Success! The Form has been submitted successfully!.
+2024-02-14 11:11:35,636 : INFO : test_formSubmission : Email Enteredbakamoto@gmail.com
+2024-02-14 11:11:35,636 : INFO : test_formSubmission : Email Enteredbakamoto@gmail.com
+2024-02-14 11:11:35,698 : INFO : test_formSubmission : Password Entered12345678o
+2024-02-14 11:11:35,698 : INFO : test_formSubmission : Password Entered12345678o
+2024-02-14 11:11:35,811 : INFO : test_formSubmission : Name EnteredBaka
+2024-02-14 11:11:35,811 : INFO : test_formSubmission : Name EnteredBaka
+2024-02-14 11:11:36,006 : INFO : test_formSubmission : Message : ×
+Success! The Form has been submitted successfully!.
+2024-02-14 11:11:36,006 : INFO : test_formSubmission : Message : ×
+Success! The Form has been submitted successfully!.
+2024-02-14 11:11:44,197 : INFO : test_e2e : getting all the card titles
+2024-02-14 11:11:44,222 : INFO : test_e2e : cardText
+2024-02-14 11:11:44,230 : INFO : test_e2e : cardText
+2024-02-14 11:11:44,237 : INFO : test_e2e : cardText
+2024-02-14 11:11:44,245 : INFO : test_e2e : cardText
+2024-02-14 11:11:44,417 : INFO : test_e2e : Entering Country details
+2024-02-14 11:11:49,720 : INFO : test_e2e : Text Received ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-02-14 11:34:25,995 : INFO : test_formSubmission : Email Entered : alejandra.evander92@gmail.com
+2024-02-14 11:34:26,070 : INFO : test_formSubmission : Password Entered : 12345678i
+2024-02-14 11:34:26,190 : INFO : test_formSubmission : Name Entered :Alejandra
+2024-02-14 11:34:26,437 : INFO : test_formSubmission : Message : ×
+Success! The Form has been submitted successfully!.
+2024-02-14 11:34:26,691 : INFO : test_formSubmission : Email Entered : bakamoto@gmail.com
+2024-02-14 11:34:26,691 : INFO : test_formSubmission : Email Entered : bakamoto@gmail.com
+2024-02-14 11:34:26,755 : INFO : test_formSubmission : Password Entered : 12345678o
+2024-02-14 11:34:26,755 : INFO : test_formSubmission : Password Entered : 12345678o
+2024-02-14 11:34:26,857 : INFO : test_formSubmission : Name Entered :Baka
+2024-02-14 11:34:26,857 : INFO : test_formSubmission : Name Entered :Baka
+2024-02-14 11:34:27,047 : INFO : test_formSubmission : Message : ×
+Success! The Form has been submitted successfully!.
+2024-02-14 11:34:27,047 : INFO : test_formSubmission : Message : ×
+Success! The Form has been submitted successfully!.
+2024-02-14 11:34:33,632 : INFO : test_e2e : getting all the card titles
+2024-02-14 11:34:33,662 : INFO : test_e2e : cardText
+2024-02-14 11:34:33,673 : INFO : test_e2e : cardText
+2024-02-14 11:34:33,681 : INFO : test_e2e : cardText
+2024-02-14 11:34:33,694 : INFO : test_e2e : cardText
+2024-02-14 11:34:33,906 : INFO : test_e2e : Entering Country details
+2024-02-14 11:34:39,241 : INFO : test_e2e : Text Received ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-02-14 11:35:29,143 : INFO : test_formSubmission : Email Entered : alejandra.evander92@gmail.com
+2024-02-14 11:35:29,217 : INFO : test_formSubmission : Password Entered : 12345678i
+2024-02-14 11:35:29,345 : INFO : test_formSubmission : Name Entered :Alejandra
+2024-02-14 11:35:29,639 : INFO : test_formSubmission : Message : ×
+Success! The Form has been submitted successfully!.
+2024-02-14 11:35:29,930 : INFO : test_formSubmission : Email Entered : bakamoto@gmail.com
+2024-02-14 11:35:29,930 : INFO : test_formSubmission : Email Entered : bakamoto@gmail.com
+2024-02-14 11:35:30,011 : INFO : test_formSubmission : Password Entered : 12345678o
+2024-02-14 11:35:30,011 : INFO : test_formSubmission : Password Entered : 12345678o
+2024-02-14 11:35:30,148 : INFO : test_formSubmission : Name Entered :Baka
+2024-02-14 11:35:30,148 : INFO : test_formSubmission : Name Entered :Baka
+2024-02-14 11:35:30,376 : INFO : test_formSubmission : Message : ×
+Success! The Form has been submitted successfully!.
+2024-02-14 11:35:30,376 : INFO : test_formSubmission : Message : ×
+Success! The Form has been submitted successfully!.
+2024-02-14 11:35:36,860 : INFO : test_e2e : getting all the card titles
+2024-02-14 11:35:36,893 : INFO : test_e2e : cardText
+2024-02-14 11:35:36,905 : INFO : test_e2e : cardText
+2024-02-14 11:35:36,913 : INFO : test_e2e : cardText
+2024-02-14 11:35:36,925 : INFO : test_e2e : cardText
+2024-02-14 11:35:37,145 : INFO : test_e2e : Entering Country details
+2024-02-14 11:35:42,453 : INFO : test_e2e : Text Received ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-02-14 12:21:13,926 : INFO : test_formSubmission : Email Entered : alejandra.evander92@gmail.com
+2024-02-14 12:21:14,041 : INFO : test_formSubmission : Password Entered : 12345678i
+2024-02-14 12:21:14,197 : INFO : test_formSubmission : Name Entered :Alejandra
+2024-02-14 12:21:14,690 : INFO : test_formSubmission : Message : ×
+Success! The Form has been submitted successfully!.
+2024-02-14 12:21:14,989 : INFO : test_formSubmission : Email Entered : bakamoto@gmail.com
+2024-02-14 12:21:14,989 : INFO : test_formSubmission : Email Entered : bakamoto@gmail.com
+2024-02-14 12:21:15,061 : INFO : test_formSubmission : Password Entered : 12345678o
+2024-02-14 12:21:15,061 : INFO : test_formSubmission : Password Entered : 12345678o
+2024-02-14 12:21:15,180 : INFO : test_formSubmission : Name Entered :Baka
+2024-02-14 12:21:15,180 : INFO : test_formSubmission : Name Entered :Baka
+2024-02-14 12:21:15,429 : INFO : test_formSubmission : Message : ×
+Success! The Form has been submitted successfully!.
+2024-02-14 12:21:15,429 : INFO : test_formSubmission : Message : ×
+Success! The Form has been submitted successfully!.
+2024-02-14 12:21:22,655 : INFO : test_e2e : getting all the card titles
+2024-02-14 12:21:22,682 : INFO : test_e2e : cardText
+2024-02-14 12:21:22,691 : INFO : test_e2e : cardText
+2024-02-14 12:21:22,700 : INFO : test_e2e : cardText
+2024-02-14 12:21:22,710 : INFO : test_e2e : cardText
+2024-02-14 12:21:22,907 : INFO : test_e2e : Entering Country details
+2024-02-14 12:21:28,392 : INFO : test_e2e : Text Received ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
