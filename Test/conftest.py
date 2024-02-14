@@ -10,10 +10,8 @@ import time
 
 def pytest_addoption(parser):
     parser.addoption(
-        "--browser_name", action="store", default="chrome"
+        "--browser_name", action="store", default="edge"
     )
-
-
 
 @pytest.fixture(scope="class")
 def setup(request):
@@ -30,9 +28,11 @@ def setup(request):
         #options_obj.add_argument("--ignore-certificate-errors")
         service_obj = Service(r"H:\Python_Project\Section_9_RS_Testing_Framework\edgedriver_win64\msedgedriver.exe")
         driver = webdriver.Edge(service=service_obj, options=options_obj)
+
       
        
     elif browser_name == "firefox":
+        options_obj = webdriver.EdgeOptions()
         service_obj = Service(r"H:\Python_Project\Section_9_RS_Testing_Framework\edgedriver_win64\msedgedriver.exe")
         driver = webdriver.Firefox(service=service_obj, options=options_obj)
 
@@ -42,3 +42,20 @@ def setup(request):
     request.cls.driver=driver
     yield
     driver.close()
+
+
+        # #Compulsory Code
+        # options_obj = webdriver.EdgeOptions()
+        # service_obj = Service(r"H:\Python_Project\Section_9_RS_Testing_Framework\edgedriver_win64\msedgedriver.exe")
+
+        # #Code to disable devtools listening on ....
+        # options_obj.add_experimental_option('excludeSwitches', ['enable-logging'])
+        # #options.add_argument("--headless=new")
+        # options_obj.add_argument("--guest")
+        # #options_obj.add_argument("windows-size=1920x1080")
+
+        # #Initialize Web Driver
+        # driver = webdriver.Edge(service=service_obj, options=options_obj)
+        # driver.maximize_window()
+        # #Go to Website & Starting Automation
+        # driver.get("https://rahulshettyacademy.com/angularpractice/")
